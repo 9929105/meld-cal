@@ -19,9 +19,13 @@ Candidates who are at least 12 years old receive an initial MELD(i) score equal 
 
 **MELD(i) = 0.957 × ln(Cr) + 0.378 × ln(bilirubin) + 1.120 × ln(INR) + 0.643**
 
-Then, round to the tenth decimal place and multiply by 10. Maximum MELD = 40.
+Then, round to the tenth decimal place and multiply by 10. That's the final MELD(i) value
 
-If MELD(i) > 11, perform additional MELD calculation as follows:
+Maximum MELD = 40.
+
+If MELD(i) > 11, perform additional MELD calculation as follows: Some organization may chose a differnt cut off value
+for example: 
+https://www.hepatitisc.uw.edu/go/management-cirrhosis-related-complications/liver-transplantation-referral/calculate-meld-score
 
 **MELD = MELD(i) + 1.32 × (137 – Na) –  [ 0.033 × MELD(i) × (137 – Na) ]**
 
