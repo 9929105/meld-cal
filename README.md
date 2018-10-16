@@ -57,3 +57,11 @@ Interpretation:
 |20–29|19.6%|
 |30–39|52.6%|
 |≥40|71.3%|
+
+
+### To run jupyterlab 
+
+jupyter lab --ip 0.0.0.0 --port 8080, note the token string
+then click Preview -> Preview running Application, pop in new window
+
+in new browser, change the last domain to be ....amazonaws.com:8080. 
